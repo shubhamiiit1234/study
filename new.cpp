@@ -2,13 +2,13 @@
 using namespace std;
 int factorial(int a)
 {	
-	int n;
+	int *n = new int();
 	if(a == 1)
 		return 1;
 	else
 	{
-		n = a*factorial(a-1);
-		return n;
+		*n = a*factorial(a-1);
+		return *n;
 	}
 }
 int main()
