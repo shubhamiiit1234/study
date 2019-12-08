@@ -7,9 +7,10 @@ int factorial(int a)
 		return 1;
 	else
 	{
-		*n = a*factorial(a-1);
+		*n = a * factorial(a-1);
 		return *n;
 	}
+	delete n;
 }
 int main()
 {	
