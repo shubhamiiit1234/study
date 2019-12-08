@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+using namespace std
 int factorial(int a)
 {	
 	int *n = new int();
