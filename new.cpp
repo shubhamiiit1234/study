@@ -8,7 +8,6 @@ int factorial(int a)
 	else
 	{
 		n = a*factorial(a-1);
-		//print("%d\n",n);
 		return n;
 	}
 }
